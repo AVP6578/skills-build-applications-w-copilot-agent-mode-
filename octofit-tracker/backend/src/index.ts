@@ -1,6 +1,6 @@
 import express from 'express';
 import cors from 'cors';
-import database from './config/database.js';
+import database from './config/database';
 
 const app = express();
 const port = process.env.PORT ? Number(process.env.PORT) : 8000;
